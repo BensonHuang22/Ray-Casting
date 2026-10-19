@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pixel Drawing</title>
+<script type="text/javascript" src="drawstuff.js"></script>
+</head>
+<body onload="main();">
+<canvas id="viewport" width="512" height="512"></canvas>
+<br>
+<label>Width:</label>
+<input id="canvasWidth" type="number" value="500">
+
+<label>Height:</label>
+<input id="canvasHeight" type="number" value="500">
+
+<br>
+    
+Eye X:
+<input id="eyeX" value="0.5">
+
+Eye Y:
+<input id="eyeY" value="0.5">
+
+Eye Z:
+<input id="eyeZ" value="-0.5">
+
+<br>
+
+Look X:
+<input id="lookX" value="0">
+
+Look Y:
+<input id="lookY" value="0">
+
+Look Z:
+<input id="lookZ" value="1">
+
+<br>
+
+View Up X:
+<input id="viewUpX" value="0">
+
+View Up Y:
+<input id="viewUpY" value="1">
+
+View Up Z:
+<input id="viewUpZ" value="0">
+
+<br>
+
+Left:
+<input id="left" value="-0.5">
+
+Right:
+<input id="right" value="0.5">
+
+Bottom:
+<input id="bottom" value="-0.5">
+
+Top:
+<input id="top" value="0.5">
+
+<br>
+
+<button onclick="main()">Render</button>
+</body>
+</html>
